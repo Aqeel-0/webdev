@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <div class="question-options">
+        <form class="form">
+            <div class="text-holder">
+                <label for="no-of-q">Number of questions-</label>
+                <input type="text" id="no-of-q" placeholder="number of question...">
+            </div>
+            <div class="category-holder">
+            <label for="category">Question Category:</label>
+                <select id="category" name="category">
+                    <option value="Random">Any Category</option>
+                    <option value="linux">Linux</option>
+                    <option value="devOps">DevOps</option>
+                    <option value="bash">Bash</option>
+                    <option value="code">Code</option>
+                </select>
+            </div>
+            <div class="difficulty-holder">
+            <label for="difficulty">Choose difficulty:</label>
+                <select id="difficulty" name="difficulty">
+                    <option value="Random">Any Difficulty</option>
+                    <option value="Hard">Hard</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Easy">Easy</option>
+                </select>
+            </div>
+            <button class="submit-btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="option.js"></script>
+</body>
+</html>

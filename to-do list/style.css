@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:linear-gradient(120deg,#f6d365, #fda085);
+    min-height: 100vh;
+    
+}
+header{
+    font-size: 20px;
+    height: 200px;
+}
+form{
+    height: 150px;
+}
+header, form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form input, form button{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background:white;
+    margin: 4px;
+    outline:none;
+}
+form button{
+    color: #f6d365;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5 all ease;
+}
+form button:hover{
+    background-color: #fda085;
+    color: white;
+}
+/* after js */
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.todo{
+    display: flex;
+    margin: 10px;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    min-width: 60vh;
+       
+    transition: 0.8s;
+}
+.todo li{
+    flex:1;
+    margin-left: 5px;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 24px;
+    
+}
+
+.trash-btn, .complete-btn{
+    background: #ec643e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+.trash-btn .fa, .complete-btn .fa{
+    font-size: 20px;
+    pointer-events: none;
+}
+.trash-btn{
+    background: #44b45c;
+}
+
+.complete{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.fall{
+    transform: translateY(50px) rotateZ(20deg);
+    opacity: 0;
+    
+}

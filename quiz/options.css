@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.question-options{
+    
+    width: 500px;
+    height: 250px;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text-holder, .category-holder, .difficulty-holder{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#no-of-q, #category, #difficulty{
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    background-color: rgb(235, 234, 233);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(146, 145, 145);
+    
+}
+.submit-btn{
+    border: none;
+    background-color: #3cd458;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
